@@ -22,5 +22,7 @@ def pysum():
 
     return c
 
+k = np.array([range(5),range(5,10)[::-1]])
 print (pysum())
 print "np",npsum()
+print k
